@@ -15,10 +15,7 @@
 		]
 	},
 	"repositories":[
-		{
-			"type": "composer",
-			"url" : "http://wpackagist.org"
-		},
+		
 		{
       "type": "vcs",
       "url":  "git@github.com:codefactory47/extended-cpts.git"
