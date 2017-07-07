@@ -18,7 +18,11 @@
 		{
 			"type": "composer",
 			"url" : "http://wpackagist.org"
-		}
+		},
+		{
+      "type": "vcs",
+      "url":  "git@github.com:codefactory47/extended-cpts.git"
+    }
 	],
 	"require": {
 		"johnbillion/extended-cpts": "dev-master",
