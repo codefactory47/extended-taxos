@@ -12,7 +12,7 @@
 	"autoload": {
 		"files": [
 			"extended-taxos.php",
-			"walker.php",
+			"walker.php"
 		]
 	},
 	"repositories":[
