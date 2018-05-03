@@ -231,7 +231,8 @@ class Extended_Taxonomy {
 		if ( 'init' === current_filter() ) {
 			call_user_func( array( $this, 'register_taxonomy' ) );
 		} else {
-			add_action( 'init', array( $this, 'register_taxonomy' ), 9 );
+		  $this->register_taxonomy();
+//			add_action( 'init', array( $this, 'register_taxonomy' ), 9 );
 		}
 
 	}
